@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        table {
+            width: 50%;
+        }
+        table, th, td {
+          border:1px solid black;
+        }
+        td , th {
+            background-color: gainsboro;
+        }
+        td {
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <center>
+
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col" colspan="3"><h1>Table</h1></th>
+                </tr>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Person1</th>
+                    <th rowspan="3">Pakistan</th>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <th>Person2</th>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th>Person3</th>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <th>Person4</th>
+                    <th rowspan="2">Dubai</th>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <th>Person5</th>
+                    <td>500</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2" scope="col">Total Amount</th>
+                    <td>1500</td>
+                </tr>
+            </tfoot>
+        </table>
+    </center>
+</body>
+</html>
